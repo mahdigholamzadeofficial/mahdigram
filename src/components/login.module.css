@@ -1,0 +1,47 @@
+.loginPage {
+  background-color: #f6f6f6;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  border: 1px solid silver;
+  background-color: #fff;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+.loginCard h2 {
+  color: rgb(93, 93, 93);
+  margin-bottom: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #07713e;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button p{
+  font-weight: bold;
+}
+.image {
+  padding: 4px;
+  background-color: #eee;
+  border-radius: 99%;
+  margin-right: 5px;
+}
+.image img {
+  width: 30px;
+}
